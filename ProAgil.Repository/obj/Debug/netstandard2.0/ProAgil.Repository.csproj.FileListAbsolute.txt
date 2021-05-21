@@ -1,0 +1,24 @@
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.deps.json
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csprojAssemblyReference.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfoInputs.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfo.cs
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CopyComplete
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.deps.json
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csprojAssemblyReference.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfoInputs.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfo.cs
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CopyComplete
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.pdb

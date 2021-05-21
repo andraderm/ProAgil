@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UTY3s/+6P2+8e06KECWW8Epeh1ZULnbgVhgDuW65v0TKsoWIlkmz1j8qTtPOF0xeJnHYwNK72Doto1ibDsMxlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rmand.000\\Desktop\\Programação\\FullStack\\ProAgil.Domain\\ProAgil.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rmand.000\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rmand.000\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

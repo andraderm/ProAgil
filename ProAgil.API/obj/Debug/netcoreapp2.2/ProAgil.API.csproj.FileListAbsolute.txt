@@ -1,0 +1,38 @@
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.deps.json
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.json
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.dev.json
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CoreCompileInputs.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cs
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfoInputs.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfo.cs
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorTargetAssemblyInfo.cache
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+C:\Users\rmand.000\Desktop\Programação\FullStack\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CopyComplete
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.deps.json
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.json
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.dev.json
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CoreCompileInputs.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cs
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfoInputs.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfo.cs
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorTargetAssemblyInfo.cache
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CopyComplete
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\rmand\OneDrive\Área de Trabalho\Programação\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
