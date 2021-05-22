@@ -1,7 +1,7 @@
 import { RedeSocial } from './RedeSocial';
 import { Evento } from './Evento';
 
-export interface Palestrante {
+export class Palestrante {
   id: number;
   nome: string;
   miniCurriculo: string;
@@ -10,4 +10,15 @@ export interface Palestrante {
   email: string;
   redesSociais: RedeSocial[];
   palestrantesEventos: Evento[];
+
+  constructor() {
+    this.id = 0;
+    this.nome = '';
+    this.miniCurriculo = '';
+    this.imagemURL = '';
+    this.telefone = '';
+    this.email = '';
+    this.redesSociais = new Array<RedeSocial>();
+    this.palestrantesEventos = new Array<Evento>();
+  }
 }
