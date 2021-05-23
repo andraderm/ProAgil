@@ -6,6 +6,7 @@ import { EventoService } from '../_services/evento.service';
 import { ptBrLocale } from 'ngx-bootstrap/locale';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
+import { ToastrService } from 'ngx-toastr';
 defineLocale('pt-br', ptBrLocale);
 
 @Component({
@@ -14,6 +15,7 @@ defineLocale('pt-br', ptBrLocale);
   styleUrls: ['./evento.component.css'],
 })
 export class EventoComponent implements OnInit {
+  public title: string = 'Eventos';
   public evento: Evento;
   public eventos: Evento[];
   public imagemLargura: number;
@@ -42,7 +44,8 @@ export class EventoComponent implements OnInit {
   constructor(
     private eventoService: EventoService,
     private fb: FormBuilder,
-    private localeService: BsLocaleService
+    private localeService: BsLocaleService,
+    private toastr: ToastrService
   ) {
     this.evento = new Evento();
     this.eventos = new Array<Evento>();
@@ -125,8 +128,10 @@ export class EventoComponent implements OnInit {
         this.eventoService.post(this.evento).subscribe(() => {
           template.hide();
           this.getEventos();
+          this.toastr.success("Inserido com sucesso");
         }, error => {
           console.log(error);
+          this.toastr.error("Erro ao inserir");
         });
       }
       else {
@@ -134,8 +139,10 @@ export class EventoComponent implements OnInit {
         this.eventoService.update(this.evento).subscribe(() => {
           template.hide();
           this.getEventos();
+          this.toastr.success("Editado com sucesso");
         }, error => {
           console.log(error);
+          this.toastr.error("Erro ao editar");
         })
       }
     }
@@ -152,8 +159,10 @@ export class EventoComponent implements OnInit {
       () => {
           template.hide();
           this.getEventos();
+          this.toastr.success("Deletado com sucesso");
         }, error => {
           console.log(error);
+          this.toastr.error("Erro ao deletar");
         }
     );
   }
