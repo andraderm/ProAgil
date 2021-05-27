@@ -26,7 +26,11 @@ export class EventoComponent implements OnInit {
   public modalRef: BsModalRef;
   public registerForm: FormGroup;
   public bodyDeletarEvento: string;
+  public fileNameToUpdate: string;
 
+  public file: File[];
+
+  public _currentDate: string;
   public _filtroLista: string;
   private saveMode: string = 'post';
 
@@ -57,8 +61,12 @@ export class EventoComponent implements OnInit {
     this.modalRef = new BsModalRef();
     this.registerForm = new FormGroup({});
     this.bodyDeletarEvento = '';
+    this.fileNameToUpdate = '';
     
+    this.file = new Array<File>();
+
     this._filtroLista = '';
+    this._currentDate = '';
 
     this.localeService.use('pt-br');
   }
@@ -83,8 +91,10 @@ export class EventoComponent implements OnInit {
   public editEvento(evento: Evento, template: any): void {
     this.saveMode = 'put';
     this.openModal(template);
-    this.evento = evento;
-    this.registerForm.patchValue(evento);
+    this.evento = Object.assign({}, evento);
+    this.fileNameToUpdate = evento.imagemURL.toString();
+    this.evento.imagemURL = '';
+    this.registerForm.patchValue(this.evento);
   }
 
   public newEvento(template: any): void {
@@ -125,6 +135,8 @@ export class EventoComponent implements OnInit {
     if (this.registerForm.valid) {
       if (this.saveMode === 'post') {
         this.evento = Object.assign({}, this.registerForm.value);
+        this.uploadImage();
+
         this.eventoService.post(this.evento).subscribe(() => {
           template.hide();
           this.getEventos();
@@ -136,6 +148,8 @@ export class EventoComponent implements OnInit {
       }
       else {
         this.evento = Object.assign({id: this.evento.id}, this.registerForm.value);
+        this.uploadImage();
+
         this.eventoService.update(this.evento).subscribe(() => {
           template.hide();
           this.getEventos();
@@ -165,5 +179,31 @@ export class EventoComponent implements OnInit {
           this.toastr.error("Erro ao deletar");
         }
     );
+  }
+
+  public onFileChange(event: any): void {
+    const reader = new FileReader();
+
+    if (event.target.files && event.target.files.length) {
+      this.file = event.target.files;  
+    }
+  }
+
+  private uploadImage(): void {
+    if (this.saveMode == 'post') {
+      const fileName = this.evento.imagemURL.split('\\', 3);
+      this.evento.imagemURL = fileName[2];
+
+      this.eventoService.upload(this.file, fileName[2]).subscribe(() => {
+        this._currentDate = new Date().getMilliseconds().toString();
+        this.getEventos();
+      });
+    } else {
+      this.evento.imagemURL = this.fileNameToUpdate;
+      this.eventoService.upload(this.file, this.fileNameToUpdate).subscribe(() => {
+        this._currentDate = new Date().getMilliseconds().toString();
+        this.getEventos();
+      });
+    }
   }
 }
