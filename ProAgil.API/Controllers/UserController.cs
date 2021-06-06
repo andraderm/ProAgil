@@ -55,7 +55,7 @@ namespace ProAgil.API.Controllers
                 
                 if (result.Succeeded)
                 {
-                    return Created("user", _mapper.Map<UserDto>(result));
+                    return Created("user", _mapper.Map<UserDto>(user));
                 }
 
                 return BadRequest(result.Errors);
